@@ -16,3 +16,5 @@ jobs:
         run: |
           cd .
           echo hello
+      - name: Shell
+        run: echo world
